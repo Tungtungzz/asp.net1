@@ -11,6 +11,6 @@
         public int DepartmentId { get; set; }
 
         // Navigation property
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace KiemTra.Entities
         public int NumberOfPersonals { get; set; }
 
         // Navigation property
-        public ICollection<Employee> Employees { get; set; }
+        public ICollection<Employee>? Employees { get; set; }
     }
 }

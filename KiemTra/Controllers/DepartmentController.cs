@@ -1,26 +1,85 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using KiemTra.Models;
-using KiemTra.Entities;
-using System.Linq;
-using System.Threading.Tasks;
+﻿// Controllers/DepartmentController.cs
+using Microsoft.AspNetCore.Mvc;
+using KiemTra.Models; // Thay đổi theo namespace của bạn
+using KiemTra.Entities; // Thay đổi theo namespace của bạn
 
-namespace KiemTra.Controllers
+public class DepartmentController : Controller
 {
-    public class DepartmentController : Controller
+    private readonly DataContext _context;
+
+    public DepartmentController(DataContext context)
     {
-        private readonly DataContext _context;
+        _context = context;
+    }
 
-        public DepartmentController(DataContext context)
+    // Action để hiển thị danh sách phòng ban
+    public IActionResult Index()
+    {
+        var departments = _context.Departments.ToList(); // Lấy danh sách phòng ban từ cơ sở dữ liệu
+        return View(departments);
+    }
+
+    // Action để thêm phòng ban
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Create(Department department)
+    {
+        if (ModelState.IsValid)
         {
-            _context = context;
+            _context.Departments.Add(department);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
+        return View(department);
+    }
 
-        public IActionResult Index()
+    // Action để chỉnh sửa phòng ban
+    public IActionResult Edit(int id)
+    {
+        var department = _context.Departments.Find(id);
+        if (department == null)
         {
-            var departments = _context.Departments.ToList();
-            return View(departments);
+            return NotFound();
         }
+        return View(department);
+    }
 
-        // Create, Edit, Delete actions here
+    [HttpPost]
+    public IActionResult Edit(Department department)
+    {
+        if (ModelState.IsValid)
+        {
+            _context.Departments.Update(department);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View(department);
+    }
+
+    // Action để xóa phòng ban
+    public IActionResult Delete(int id)
+    {
+        var department = _context.Departments.Find(id);
+        if (department == null)
+        {
+            return NotFound();
+        }
+        return View(department);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public IActionResult DeleteConfirmed(int id)
+    {
+        var department = _context.Departments.Find(id);
+        if (department != null)
+        {
+            _context.Departments.Remove(department);
+            _context.SaveChanges();
+        }
+        return RedirectToAction("Index");
     }
 }

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<KiemTra.Entities.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h1>Employees</h1>
+
+<p>
+    <a href="@Url.Action("Create")">Create New Employee</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Rank</th>
+            <th>Department</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeName</td>
+                <td>@item.EmployeeCode</td>
+                <td>@item.Rank</td>
+                <td>@item.Department.DepartmentName</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.EmployeeId })">Edit</a> |
+                    <a href="@Url.Action("Delete", new { id = item.EmployeeId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

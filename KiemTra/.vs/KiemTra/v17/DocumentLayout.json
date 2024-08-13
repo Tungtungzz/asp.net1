@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tung\\Videos\\KiemTra\\",
+  "WorkspaceRootPath": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|c:\\users\\tung\\videos\\kiemtra\\kiemtra\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|c:\\users\\tung\\desktop\\asp.net1\\kiemtra\\kiemtra\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|c:\\users\\tung\\videos\\kiemtra\\kiemtra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|c:\\users\\tung\\desktop\\asp.net1\\kiemtra\\kiemtra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A0B3BC-F6A0-4F95-B73F-B9C798023B75}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KiemTra\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "KiemTra\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAowCIAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-13T03:20:05.444Z",
               "EditorCaption": ""
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\Program.cs",
               "RelativeDocumentMoniker": "KiemTra\\Program.cs",
-              "ToolTip": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\Program.cs",
+              "ToolTip": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\Program.cs",
               "RelativeToolTip": "KiemTra\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

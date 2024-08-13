@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\KiemTra.csproj": {}
+    "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\KiemTra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\KiemTra.csproj": {
+    "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\KiemTra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\KiemTra.csproj",
+        "projectUniqueName": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\KiemTra.csproj",
         "projectName": "KiemTra",
-        "projectPath": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\KiemTra.csproj",
+        "projectPath": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\KiemTra.csproj",
         "packagesPath": "C:\\Users\\Tung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\obj\\",
+        "outputPath": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",

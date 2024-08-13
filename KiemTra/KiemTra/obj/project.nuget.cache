@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MoEEXRcJlXOQ/oD8INkyw+ZydBBGssVQ7CU3HPMx4rVjFjCJGgkLwb4Qe/1RFS+JdIN5sxfi6SqHJMKtsDD9nA==",
+  "dgSpecHash": "jPo/Mhm0qfrnXDe8oNKesXglm1uNR4PaTeWutO14UMj5ASRTLDdfnK3zjSNf/xgVIMH6DHW2NUreLeC57I70IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tung\\Videos\\KiemTra\\KiemTra\\KiemTra.csproj",
+  "projectFilePath": "C:\\Users\\Tung\\Desktop\\asp.net1\\KiemTra\\KiemTra\\KiemTra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tung\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Tung\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

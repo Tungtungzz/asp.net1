@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace KiemTra.Views.Department
 {
-    public class IndexModel : PageModel
+    public class EditModel : PageModel
     {
         public void OnGet()
         {

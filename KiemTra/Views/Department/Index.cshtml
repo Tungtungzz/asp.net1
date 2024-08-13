@@ -1,13 +1,23 @@
 ﻿@model IEnumerable<KiemTra.Entities.Department>
 
-<h2>Department List</h2>
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<h1>Departments</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Department</a>
+</p>
+
 <table class="table">
     <thead>
         <tr>
             <th>Name</th>
             <th>Code</th>
             <th>Location</th>
-            <th>Actions</th>
+            <th>Number of Personnel</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -17,8 +27,10 @@
                 <td>@department.DepartmentName</td>
                 <td>@department.DepartmentCode</td>
                 <td>@department.Location</td>
+                <td>@department.NumberOfPersonals</td>
                 <td>
-                    <!-- Edit and Delete buttons -->
+                    <a asp-action="Edit" asp-route-id="@department.DepartmentId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@department.DepartmentId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

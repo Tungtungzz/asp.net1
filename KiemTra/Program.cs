@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Connect db
-string connectionString = "Data Source=LAPTOP-488HLOG4\\SQLEXPRESS;Initial Catalog=KiemtraDB;Integrated Security=True;Trust Server Certificate=True";
+string connectionString = "Data Source=LAPTOP-488HLOG4\\SQLEXPRESS;Initial Catalog=Demo;Integrated Security=True;Trust Server Certificate=True";
 builder.Services.AddDbContext<KiemTra.Entities.DataContext>(
     options => options.UseSqlServer(connectionString)
 );

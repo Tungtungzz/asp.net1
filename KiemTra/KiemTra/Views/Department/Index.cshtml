@@ -1,0 +1,26 @@
+﻿@model IEnumerable<KiemTra.Entities.Department>
+
+<h2>Department List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Location</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.DepartmentName</td>
+                <td>@department.DepartmentCode</td>
+                <td>@department.Location</td>
+                <td>
+                    <!-- Edit and Delete buttons -->
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

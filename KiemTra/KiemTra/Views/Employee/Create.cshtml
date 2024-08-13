@@ -1,0 +1,11 @@
+﻿@model KiemTra.Entities.Employee
+
+<h2>Create Employee</h2>
+<form asp-action="Create">
+    <!-- Fields for employee data -->
+    <div>
+        <label>Department</label>
+        <select asp-for="DepartmentId" asp-items="@(new SelectList(ViewBag.Departments, "DepartmentId", "DepartmentName"))"></select>
+    </div>
+    <button type="submit">Create</button>
+</form>
